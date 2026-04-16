@@ -1,0 +1,72 @@
+🔹 EX.NO.1 – Setup Cloud using OpenNebula (Detailed 8 Steps)
+Start the system and open terminal, switch to root user using sudo -i.
+Update the system packages using sudo apt update to ensure latest versions.
+Upgrade installed packages using sudo apt upgrade.
+Add OpenNebula repository and import its authentication key.
+Install required OpenNebula packages (opennebula, sunstone, gate, flow).
+Start and enable OpenNebula services in the system.
+Verify installation by checking user and service status.
+Open browser → type localhost:9869 and login using oneadmin credentials.
+🔹 EX.NO.2 – Run Virtual Machines (Detailed 8 Steps)
+Open the browser and navigate to OpenNebula dashboard (localhost:9869).
+Login using administrator credentials (oneadmin).
+Go to Instances section and select Virtual Machines (VMs).
+Click on Create VM (+ icon) to start VM creation.
+Enter VM details such as name, CPU count, RAM, and storage.
+Select appropriate template or configuration for the VM.
+Click on Create button to launch the VM instance.
+Repeat the process to create multiple VMs and observe system capacity.
+🔹 EX.NO.3 – VM Migration (Detailed 8 Steps)
+Open OpenNebula dashboard in web browser.
+Login with valid admin credentials.
+Navigate to Infrastructure → Hosts/Clusters section.
+Ensure multiple hosts are available or create new host.
+Go to Instances → Virtual Machines.
+Select the VM which needs to be migrated.
+Click on Migrate option and choose destination host.
+Confirm migration and verify successful movement of VM.
+🔹 EX.NO.4 – Install C Compiler in VM (Detailed 8 Steps)
+Open Virtual Machine Manager and create/start a VM.
+Load operating system (e.g., Fedora/Ubuntu) in the VM.
+Open terminal inside the VM (Ctrl + Alt + T).
+Install GCC compiler using sudo apt-get install gcc.
+Verify installation using gcc --version command.
+Create a C program file using editor (vi filename.c).
+Compile program using cc filename.c.
+Execute compiled program using ./a.out and verify output.
+🔹 EX.NO.5 – Google App Engine (Detailed 8 Steps)
+Install Google Plugin for Eclipse IDE.
+Open Eclipse and create a new web application project.
+Generate sample project structure (Hello World application).
+Review project directories like src, WEB-INF, and configuration files.
+Configure appengine-web.xml file with application ID.
+Run the application locally using Eclipse server.
+Open browser and verify output at http://localhost:8888.
+Deploy the application to Google App Engine cloud platform.
+🔹 EX.NO.6 – CloudSim Simulation (Detailed 8 Steps)
+Download CloudSim package and extract it into system.
+Open Eclipse IDE and create a new Java project.
+Import CloudSim libraries into the project classpath.
+Initialize CloudSim using CloudSim.init() method.
+Create data center with required characteristics.
+Create broker and define virtual machines (VMs).
+Create cloudlets (tasks) and assign them to VMs.
+Run simulation and analyze output results such as execution time.
+🔹 EX.NO.7 – Hadoop Installation (Detailed 8 Steps)
+Install Java (JDK) and verify using java -version.
+Install SSH and configure password-less SSH login.
+Download Hadoop package and extract it.
+Set environment variables in .bashrc file.
+Configure Hadoop files (core-site.xml, hdfs-site.xml, etc.).
+Format Namenode using Hadoop command.
+Start Hadoop services (DFS and YARN).
+Verify installation using web UI or Hadoop commands.
+🔹 EX.NO.8 – General Cloud Experiment (Detailed 8 Steps)
+Understand the objective and requirements of the experiment.
+Set up necessary software tools and environment.
+Configure system or cloud platform accordingly.
+Execute the required commands or process.
+Monitor system behavior during execution.
+Collect and analyze output or performance results.
+Identify and fix any errors encountered.
+Document results and conclude the experiment.
